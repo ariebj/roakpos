@@ -68,9 +68,9 @@ ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap p
 Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
 
 Info Aplikasi
--Nama Rilis : {{config('app.name')}}<br>
--Versi Rilis : {{config('app.version')}}<br>
--Tanggal Rilis : 3 Maret 2021<br>
+-Nama Rilis : ROAKPOS
+-Versi Rilis : v.1.0
+-Tanggal Rilis : 3 Maret 2021
 -Fitur :
 
 Admin
