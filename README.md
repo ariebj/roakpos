@@ -60,4 +60,48 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# roakpos
+
+#ROAKPOS v.1.0
+Roakpos adalah aplikasi penjualan atau Point Of Sales yang bisa digunakan dalam usaha Cafe,Restoran,Retail ataupun usaha lainnya.
+Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) dengan tujuan memudahkan pelaku usaha dalam bertransaksi dengan pelanggan.
+ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap pengembangan.
+Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
+
+Info Aplikasi
+-Nama Rilis : {{config('app.name')}}<br>
+-Versi Rilis : {{config('app.version')}}<br>
+-Tanggal Rilis : 3 Maret 2021<br>
+-Fitur :
+
+Admin
+--Kasir
+    Interface untuk transaksi penjualan
+--Dasbor
+    Manajemen transaksi untuk kasir.
+--Akun
+    Profile manajemen
+--Produk
+  Manajemen produk, kategori, dan opsi produk.
+--Metode Pemesanan
+  Manajemen metode pesan customer.
+--Laporan Transaksi
+  Manajemen laporan transaksi
+
+Customer
+--Kasir
+  Interface transaksi pembelian customer
+--Dasbor
+  Dasbor customer
+--Akun
+  Profil managemen
+  
+System Requirement
+- Device : Desktop, Mobile, Tablet.
+- Framework : Laravel Versi 7 +
+- PHP : Versi 7.4 +
+
+Terima kasih untuk [Laravel](https://laravel.com), di dalam framework ini Aplikasi ROAKPOS dibangun dan dikembangkan.
+Dengan ekosistem yang komplit dan dukungan dari berbagai vendor kami memilih Laravel sebagai framework aplikasi, banyak hal yang kedepan nya dapat dikembangkan karena Laravel sangat didukung oleh banyak programmer.
+Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur yang ada ataupun penambahan fitur baru selaras dengan perkembangan framework Laravel dan dependencies nya.
+
+#Screenshot
