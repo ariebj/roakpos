@@ -1,0 +1,121 @@
+{
+    "name": "ROAKPOS",
+    "short_name": "ROAKPOS",
+    "description": "Point Of Sales",
+    "background_color": "#ffffff",
+    "theme_color": "#3c280d",
+    "display": "standalone",
+    "orientation": "any",
+    "start_url": "https://pos.roakrak.co.id/roakpos/public/",
+    "scope": "https://pos.roakrak.co.id/roakpos/public/",
+    "icons": [
+        {
+            "src": "/roakpos/public/storage/logos/logo-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-128x128.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/logo-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "splash": [
+        {
+            "src": "/roakpos/public/storage/logos/splash-640x1136.png",
+            "sizes": "640x1136",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-750x1334.png",
+            "sizes": "750x1134",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-828x1792.png",
+            "sizes": "828x1792",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1125x2436.png",
+            "sizes": "1125x2436",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1242x2208.png",
+            "sizes": "1242x2208",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1242x2688.png",
+            "sizes": "1242x2688",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1536x2048.png",
+            "sizes": "1536x2048",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1668x2224.png",
+            "sizes": "1668x2224",
+            "type": "image/png"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1668x2388.png",
+            "sizes": "1668x2388",
+            "type": "image/png"
+        },
+        {
+            "src": "/roakpos/public/storage/logos/splash-1668x2224.png",
+            "sizes": "2048x2732",
+            "type": "image/png"
+        }
+    ],
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css"
+}
