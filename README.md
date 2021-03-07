@@ -61,39 +61,39 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-##ROAKPOS v.1.0
+## ROAKPOS v.1.0
 
 Roakpos adalah aplikasi penjualan atau Point Of Sales yang bisa digunakan dalam usaha Cafe,Restoran,Retail ataupun usaha lainnya.
 Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) dengan tujuan memudahkan pelaku usaha dalam bertransaksi dengan pelanggan.
 ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap pengembangan.
 Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
 
-Info Aplikasi
+# Info Aplikasi
 -Nama Rilis : ROAKPOS
 -Versi Rilis : v.1.0
 -Tanggal Rilis : 3 Maret 2021
 -Fitur :
 
-Admin
---Kasir
+# Admin
+-Kasir
     Interface untuk transaksi penjualan
---Dasbor
+-Dasbor
     Manajemen transaksi untuk kasir.
---Akun
+-Akun
     Profile manajemen
---Produk
+-Produk
   Manajemen produk, kategori, dan opsi produk.
---Metode Pemesanan
+-Metode Pemesanan
   Manajemen metode pesan customer.
---Laporan Transaksi
+-Laporan Transaksi
   Manajemen laporan transaksi
 
-Customer
---Kasir
+# Customer
+-Kasir
   Interface transaksi pembelian customer
---Dasbor
+-Dasbor
   Dasbor customer
---Akun
+-Akun
   Profil managemen
   
 System Requirement
@@ -105,4 +105,4 @@ Terima kasih untuk [Laravel](https://laravel.com), di dalam framework ini Aplika
 Dengan ekosistem yang komplit dan dukungan dari berbagai vendor kami memilih Laravel sebagai framework aplikasi, banyak hal yang kedepan nya dapat dikembangkan karena Laravel sangat didukung oleh banyak programmer.
 Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur yang ada ataupun penambahan fitur baru selaras dengan perkembangan framework Laravel dan dependencies nya.
 
-##Screenshot
+## Screenshot
