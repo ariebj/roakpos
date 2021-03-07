@@ -107,7 +107,7 @@ Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur y
 
 ## Screenshot
 <p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/987c8c21c496489ba8cfb8bf9d4228f1fb0511d6/Screenshot%20(25).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/56536a7b25a6e1016f78e6a2f7614517723bd7f2/Screenshot%20(26).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/login" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/987c8c21c496489ba8cfb8bf9d4228f1fb0511d6/Screenshot%20(25).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/home" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/56536a7b25a6e1016f78e6a2f7614517723bd7f2/Screenshot%20(26).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/cart" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
 
