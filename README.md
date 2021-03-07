@@ -68,7 +68,7 @@ Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) den
 ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap pengembangan.
 Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
 
-# Info Aplikasi
+## Info Aplikasi
 - Nama Rilis : ROAKPOS
 - Versi Rilis : v.1.0
 - Tanggal Rilis : 3 Maret 2021
