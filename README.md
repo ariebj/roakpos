@@ -69,31 +69,31 @@ ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap p
 Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
 
 # Info Aplikasi
--Nama Rilis : ROAKPOS
--Versi Rilis : v.1.0
--Tanggal Rilis : 3 Maret 2021
--Fitur :
+- Nama Rilis : ROAKPOS
+- Versi Rilis : v.1.0
+- Tanggal Rilis : 3 Maret 2021
+- Fitur :
 
-# Admin
--Kasir
+Admin
+- Kasir
     Interface untuk transaksi penjualan
--Dasbor
+- Dasbor
     Manajemen transaksi untuk kasir.
--Akun
+- Akun
     Profile manajemen
--Produk
+- Produk
   Manajemen produk, kategori, dan opsi produk.
--Metode Pemesanan
+- Metode Pemesanan
   Manajemen metode pesan customer.
--Laporan Transaksi
+- Laporan Transaksi
   Manajemen laporan transaksi
 
-# Customer
--Kasir
+Customer
+- Kasir
   Interface transaksi pembelian customer
--Dasbor
+- Dasbor
   Dasbor customer
--Akun
+- Akun
   Profil managemen
   
 System Requirement
