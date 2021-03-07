@@ -106,4 +106,6 @@ Dengan ekosistem yang komplit dan dukungan dari berbagai vendor kami memilih Lar
 Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur yang ada ataupun penambahan fitur baru selaras dengan perkembangan framework Laravel dan dependencies nya.
 
 ## Screenshot
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p><hr>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/987c8c21c496489ba8cfb8bf9d4228f1fb0511d6/Screenshot%20(25).png" ></a></p><hr>
+
