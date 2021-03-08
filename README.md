@@ -50,14 +50,14 @@ Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur y
 <p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/cart" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
 
 ## Install
-# 1. Get the package
+### 1. Get the package
 - run command in your project folder
 $ git clone https://github.com/roakrak/roakpos.git
 
 - download
 Download this repo and extract into your project folder
 
-# 2. Go to project folder
+### 2. Go to project folder
 - run command in your project folder
 cd roakpos
 
@@ -66,10 +66,10 @@ cd roakpos
 composer install
 **please wait until installation done
 
-# 4. Setup environtment
+### 4. Setup environtment
 - create .env file copy all contents inside .env-example
 - this app using (class User extends Authenticatable implements MustVerifyEmail) you need to configure email server in .env file
-- **MAIL_MAILER=smtp
+- *MAIL_MAILER=smtp
 - *MAIL_HOST=your.mail.host
 - *MAIL_PORT=your mail port
 - *MAIL_USERNAME=your email username (example@email.com)
@@ -84,16 +84,16 @@ class User extends Authenticatable implements MustVerifyEmail
 and change it become
 class User extends Authenticatable
 
-# 5. Generate App Key
+### 5. Generate App Key
 - still in folder roakpos run command
 php artisan key:generate
 
-# 6. Migration database
+### 6. Migration database
 - still in folder roakpos run command
 php artisan migrate:fresh
 ** we not provide seeder so you need create first user and change the user status into 'admin' directly in your database after registration successfully.
 
-# 7. Your DONE app ready
+### 7. Your DONE app ready
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
