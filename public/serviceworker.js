@@ -5,8 +5,8 @@
  */
 
 const cacheName = "roakpos-v1.0";
-const startPage = "https://pos.roakrak.co.id/roakpos/public";
-const offlinePage = "https://pos.roakrak.co.id/roakpos/public/offline";
+const startPage = "https://pos.roakrak.co.id/roakpos/public/";
+const offlinePage = "https://pos.roakrak.co.id/roakpos/public/offline/";
 const filesToCache = [startPage, offlinePage];
 const neverCacheUrls = [/\/vendor/, /preview=true/];
 
