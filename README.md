@@ -50,7 +50,7 @@ Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur y
 <p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/cart" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
 
 ## Install
-1.Get the package
+1. Get the package
 - run command in your project folder
 $ git clone https://github.com/roakrak/roakpos.git
 
@@ -69,14 +69,14 @@ composer install
 4. Setup environtment
 - create .env file copy all contents inside .env-example
 - this app using (class User extends Authenticatable implements MustVerifyEmail) you need to configure email server in .env file
-MAIL_MAILER=smtp
-MAIL_HOST=your.mail.host
-MAIL_PORT=your mail port
-MAIL_USERNAME=your email username (example@email.com)
-MAIL_PASSWORD=your email password
-MAIL_ENCRYPTION=mail encryption (eg.ssl or tls)
-MAIL_FROM_ADDRESS=your email address
-MAIL_FROM_NAME="${APP_NAME}" do not change
+-- MAIL_MAILER=smtp
+-- MAIL_HOST=your.mail.host
+-- MAIL_PORT=your mail port
+-- MAIL_USERNAME=your email username (example@email.com)
+-- MAIL_PASSWORD=your email password
+-- MAIL_ENCRYPTION=mail encryption (eg.ssl or tls)
+-- MAIL_FROM_ADDRESS=your email address
+-- MAIL_FROM_NAME="${APP_NAME}" do not change
 
 if you do not want implements email verification please change file 'User.php' inside folder 'app/Models',
 find this row:
