@@ -51,24 +51,24 @@ Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur y
 
 ## Install
 ### 1. Get the package
-- run command in your project folder
-$ git clone https://github.com/roakrak/roakpos.git
+run command in your project folder
+- $ git clone https://github.com/roakrak/roakpos.git
 
-- download
-Download this repo and extract into your project folder
+download
+- Download this repo and extract into your project folder
 
 ### 2. Go to project folder
-- run command in your project folder
-cd roakpos
+run command in your project folder
+- cd roakpos
 
-# 3. Install Composer
-- run command in roakpos folder
-composer install
+### 3. Install Composer
+run command in roakpos folder
+- composer install
 **please wait until installation done
 
 ### 4. Setup environtment
-- create .env file copy all contents inside .env-example
-- this app using (class User extends Authenticatable implements MustVerifyEmail) you need to configure email server in .env file
+create .env file copy all contents inside .env-example
+this app using (class User extends Authenticatable implements MustVerifyEmail) you need to configure email server in .env file
 - *MAIL_MAILER=smtp
 - *MAIL_HOST=your.mail.host
 - *MAIL_PORT=your mail port
@@ -80,17 +80,17 @@ composer install
 
 if you do not want implements email verification please change file 'User.php' inside folder 'app/Models',
 find this row:
-class User extends Authenticatable implements MustVerifyEmail
+- class User extends Authenticatable implements MustVerifyEmail
 and change it become
-class User extends Authenticatable
+- class User extends Authenticatable
 
 ### 5. Generate App Key
-- still in folder roakpos run command
-php artisan key:generate
+still in folder roakpos run command
+- php artisan key:generate
 
 ### 6. Migration database
-- still in folder roakpos run command
-php artisan migrate:fresh
+still in folder roakpos run command
+- php artisan migrate:fresh
 ** we not provide seeder so you need create first user and change the user status into 'admin' directly in your database after registration successfully.
 
 ### 7. Your DONE app ready
