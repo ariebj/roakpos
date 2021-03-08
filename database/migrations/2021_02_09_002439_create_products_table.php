@@ -16,12 +16,24 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('category')->nullable()->index('category');
-            $table->foreign('category')->references('name')->on('categories')->onDelete('SET NULL')->onUpdate('CASCADE');
-            $table->string('option')->nullable()->index('option');
-            $table->foreign('option')->references('name')->on('options')->onDelete('SET NULL')->onUpdate('CASCADE');
-            $table->string('order_method')->nullable()->default('None')->index('order_method');
-            $table->foreign('order_method')->references('name')->on('order_method')->onDelete('SET NULL')->onUpdate('CASCADE');
+            $table->string('category')->nullable();
+            $table->foreign('category')
+                ->references('name')
+                ->on('categories')
+                ->onDelete('SET NULL')
+                ->onUpdate('CASCADE');
+            $table->string('option')->nullable();
+            $table->foreign('option')
+                ->references('name')
+                ->on('options')
+                ->onDelete('SET NULL')
+                ->onUpdate('CASCADE');
+            $table->string('order_method')->nullable();
+            $table->foreign('order_method')
+                ->references('name')
+                ->on('order_method')
+                ->onDelete('SET NULL')
+                ->onUpdate('CASCADE');
             $table->string('image');
             $table->text('description');
             $table->string('status');
