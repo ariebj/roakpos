@@ -62,6 +62,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## ROAKPOS v.1.0
+<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p><hr>
 
 Roakpos adalah aplikasi penjualan atau Point Of Sales yang bisa digunakan dalam usaha Cafe,Restoran,Retail ataupun usaha lainnya.
 Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) dengan tujuan memudahkan pelaku usaha dalam bertransaksi dengan pelanggan.
