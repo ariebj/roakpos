@@ -305,7 +305,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top">
             <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand text-secondary" href="{{ url('/') }}">
-                    <img src="{{ config('app.logo', 'Laravel') }}" class="img-responsive py-0 px-0" alt="logo" style="height:40px;">
+                    <img src="{{ asset('storage/logos/logo-512x512.png') }}" class="img-responsive py-0 px-0" alt="logo" style="height:40px;">
                 </a>
                 <div class="col text-secondary text-left px-0">
                     <strong>{{ config('app.name') }}</strong> {{ config('app.version') }}
