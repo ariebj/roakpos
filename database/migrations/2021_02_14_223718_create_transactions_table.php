@@ -19,7 +19,7 @@ class CreateTransactionsTable extends Migration
             $table->bigInteger('user_id')->unsigned();
             $table->integer('pay');
             $table->integer('total');
-            $table->set('status', ['Pensing', 'On-Hold', 'Cancelled', 'Processing', 'Completed'])->default('Pending');
+            $table->set('status', ['Pending', 'On-Hold', 'Cancelled', 'Processing', 'Completed'])->default('Pending');
             $table->timestamps();
         });
     }
