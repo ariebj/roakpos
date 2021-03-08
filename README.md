@@ -1,3 +1,101 @@
+## About ROAKPOS
+<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/28503ae7592b668a098af40283ef80332c9f3e67/logo-512x512.png" ></a></p><hr>
+
+Roakpos adalah aplikasi penjualan atau Point Of Sales yang bisa digunakan dalam usaha Cafe,Restoran,Retail ataupun usaha lainnya.
+Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) dengan tujuan memudahkan pelaku usaha dalam bertransaksi dengan pelanggan.
+ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap pengembangan.
+Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
+
+## Info Aplikasi
+- Nama Rilis : ROAKPOS
+- Versi Rilis : v.1.0
+- Tanggal Rilis : 3 Maret 2021
+- Fitur :
+
+Admin
+- Kasir
+    Interface untuk transaksi penjualan
+- Dasbor
+    Manajemen transaksi untuk kasir.
+- Akun
+    Profile manajemen
+- Produk
+  Manajemen produk, kategori, dan opsi produk.
+- Metode Pemesanan
+  Manajemen metode pesan customer.
+- Laporan Transaksi
+  Manajemen laporan transaksi
+
+Customer
+- Kasir
+  Interface transaksi pembelian customer
+- Dasbor
+  Dasbor customer
+- Akun
+  Profil managemen
+  
+System Requirement
+- Device : Desktop, Mobile, Tablet.
+- Framework : Laravel Versi 7 +
+- PHP : Versi 7.4 +
+
+Terima kasih untuk [Laravel](https://laravel.com), di dalam framework ini Aplikasi ROAKPOS dibangun dan dikembangkan.
+Dengan ekosistem yang komplit dan dukungan dari berbagai vendor kami memilih Laravel sebagai framework aplikasi, banyak hal yang kedepan nya dapat dikembangkan karena Laravel sangat didukung oleh banyak programmer.
+Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur yang ada ataupun penambahan fitur baru selaras dengan perkembangan framework Laravel dan dependencies nya.
+
+## Screenshot
+<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/login" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/987c8c21c496489ba8cfb8bf9d4228f1fb0511d6/Screenshot%20(25).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/home" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/56536a7b25a6e1016f78e6a2f7614517723bd7f2/Screenshot%20(26).png" ></a></p><hr>
+<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/cart" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
+
+## Install
+### 1. Get the package
+run command in your project folder
+- $ git clone https://github.com/roakrak/roakpos.git
+
+download
+- Download this repo and extract into your project folder
+
+### 2. Go to project folder
+run command in your project folder
+- cd roakpos
+
+### 3. Install Composer
+run command in roakpos folder
+- composer install
+- **please wait until installation done
+
+### 4. Setup environtment
+create .env file copy all contents inside .env-example
+this app using (class User extends Authenticatable implements MustVerifyEmail) you need to configure email server in .env file
+- *MAIL_MAILER=smtp
+- *MAIL_HOST=your.mail.host
+- *MAIL_PORT=your mail port
+- *MAIL_USERNAME=your email username (example@email.com)
+- *MAIL_PASSWORD=your email password
+- *MAIL_ENCRYPTION=mail encryption (eg.ssl or tls)
+- *MAIL_FROM_ADDRESS=your email address
+- *MAIL_FROM_NAME="${APP_NAME}" do not change
+
+if you do not want implements email verification please change file 'User.php' inside folder 'app/Models',
+find this row:
+- class User extends Authenticatable implements MustVerifyEmail
+and change it become
+- class User extends Authenticatable
+
+### 5. Generate App Key
+still in folder roakpos run command
+- php artisan key:generate
+
+### 6. Migration database
+still in folder roakpos run command
+- php artisan migrate:fresh
+** we not provide seeder so you need create first user and change the user status into 'admin' directly in your database after registration successfully.
+
+### 7. Your DONE app ready
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -60,54 +158,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## ROAKPOS v.1.0
-
-Roakpos adalah aplikasi penjualan atau Point Of Sales yang bisa digunakan dalam usaha Cafe,Restoran,Retail ataupun usaha lainnya.
-Roakpos dibangun dan dikembangkan oleh [Roakrak Kofi](https://roakrak.co.id) dengan tujuan memudahkan pelaku usaha dalam bertransaksi dengan pelanggan.
-ROAKPOS v.1.0 ini merupakan Free Version dan masih versi percobaan dalam tahap pengembangan.
-Aplikasi ROAKPOS menggunakan model aplikasi Progressive Web Application (PWA), keuntungan aplikasi model seperti ini adalah cross-platform yang artinya dapat menggunakan perangkat apapun dengan internet browser.
-
-## Info Aplikasi
-- Nama Rilis : ROAKPOS
-- Versi Rilis : v.1.0
-- Tanggal Rilis : 3 Maret 2021
-- Fitur :
-
-Admin
-- Kasir
-    Interface untuk transaksi penjualan
-- Dasbor
-    Manajemen transaksi untuk kasir.
-- Akun
-    Profile manajemen
-- Produk
-  Manajemen produk, kategori, dan opsi produk.
-- Metode Pemesanan
-  Manajemen metode pesan customer.
-- Laporan Transaksi
-  Manajemen laporan transaksi
-
-Customer
-- Kasir
-  Interface transaksi pembelian customer
-- Dasbor
-  Dasbor customer
-- Akun
-  Profil managemen
-  
-System Requirement
-- Device : Desktop, Mobile, Tablet.
-- Framework : Laravel Versi 7 +
-- PHP : Versi 7.4 +
-
-Terima kasih untuk [Laravel](https://laravel.com), di dalam framework ini Aplikasi ROAKPOS dibangun dan dikembangkan.
-Dengan ekosistem yang komplit dan dukungan dari berbagai vendor kami memilih Laravel sebagai framework aplikasi, banyak hal yang kedepan nya dapat dikembangkan karena Laravel sangat didukung oleh banyak programmer.
-Oleh karena itu Aplikasi ROAKPOS akan selalu diperbarui dengan perbaikan fitur yang ada ataupun penambahan fitur baru selaras dengan perkembangan framework Laravel dan dependencies nya.
-
-## Screenshot
-<p align="center"><a href="https://pos.roakrak.co.id" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/8531868807c5ce23540411f2d3d75e25b0a1d19e/Screenshot%20(24).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/login" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/987c8c21c496489ba8cfb8bf9d4228f1fb0511d6/Screenshot%20(25).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/home" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/56536a7b25a6e1016f78e6a2f7614517723bd7f2/Screenshot%20(26).png" ></a></p><hr>
-<p align="center"><a href="https://pos.roakrak.co.id/pos/roakpos/public/cart" target="_blank"><img src="https://github.com/roakrak/roakpos/blob/ef0e732a41c6795d715c7d05148e0a077ae9cbe6/Screenshot%20(27).png" ></a></p><hr>
 
