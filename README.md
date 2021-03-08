@@ -64,7 +64,7 @@ run command in your project folder
 ### 3. Install Composer
 run command in roakpos folder
 - composer install
-**please wait until installation done
+- **please wait until installation done
 
 ### 4. Setup environtment
 create .env file copy all contents inside .env-example
