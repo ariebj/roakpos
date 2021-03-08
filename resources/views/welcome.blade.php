@@ -455,7 +455,7 @@
 
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                <img src="{{config('app.logo')}}" class="img-fluid" height="110px" width="110px" alt="logo">
+                <img src="{{ asset('storage/logos/logo-512x512.png') }}" class="img-fluid" height="110px" width="110px" alt="logo">
                 <div class="ml-4 text-lg leading-7 font-semibold text-gray-600 dark:text-white">
                     <h1>{{config('app.name', 'ROAKPOS') }}</h1>
                     <h3>{{config('app.version', 'ROAKPOS') }}</h3>
