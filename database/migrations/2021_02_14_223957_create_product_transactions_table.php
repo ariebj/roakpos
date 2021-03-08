@@ -18,6 +18,8 @@ class CreateProductTransactionsTable extends Migration
             $table->bigInteger('product_id')->unsigned();
             $table->string('product_name');
             $table->string('product_price');
+            $table->string('product_option');
+            $table->string('order_method');
             $table->string('invoice_number');
             $table->bigInteger('qty')->unsigned();
             $table->timestamps();
