@@ -15,7 +15,7 @@ class CreateOptionsTable extends Migration
     {
         Schema::create('options', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('name')->index('option_name');
             $table->string('description');
             $table->timestamps();
         });

@@ -20,20 +20,20 @@ class CreateProductsTable extends Migration
             $table->foreign('category')
                 ->references('name')
                 ->on('categories')
-                ->onDelete('SET NULL')
-                ->onUpdate('CASCADE');
+                ->onDelete('set null')
+                ->onUpdate('cascade');
             $table->string('option')->nullable();
             $table->foreign('option')
                 ->references('name')
                 ->on('options')
-                ->onDelete('SET NULL')
-                ->onUpdate('CASCADE');
+                ->onDelete('set null')
+                ->onUpdate('cascade');
             $table->string('order_method')->nullable();
             $table->foreign('order_method')
                 ->references('name')
                 ->on('order_method')
-                ->onDelete('SET NULL')
-                ->onUpdate('CASCADE');
+                ->onDelete('set null')
+                ->onUpdate('cascade');
             $table->string('image');
             $table->text('description');
             $table->string('status');
