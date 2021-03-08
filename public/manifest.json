@@ -7,7 +7,7 @@
     "display": "standalone",
     "orientation": "any",
     "start_url": "https://pos.roakrak.co.id/roakpos/public/",
-    "scope": "https://pos.roakrak.co.id/roakpos/public/",
+    "scope": "/",
     "icons": [
         {
             "src": "/roakpos/public/storage/logos/logo-72x72.png",

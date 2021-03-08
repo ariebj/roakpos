@@ -8,8 +8,7 @@
     <div class="card border-0 visible-xs" style="width:100%;">
         <div class="card-header font-weight-bold text-center bg-white text-secondary">
             Transaksi Hari Ini <i type="button" class="fas fa-eye ml-1" data-bs-toggle="collapse" data-bs-target="#summary" aria-expanded="false" aria-controls="collapseExample"></i><br>
-            <small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{date('d/m/Y', strtotime(now()))}}</small>&nbsp;
-            <small><i class="fas fa-clock"></i></small>&nbsp;<div class="text-secondary" wire:poll.1000ms>{{date('H:i:s', strtotime(now()))}}</div>
+            <small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{date('d/m/Y', strtotime(now()))}}</small>
         </div>
         <div class="card-body px-0 py-0 bg-white text-secondary">
             @if($todayTransactions)

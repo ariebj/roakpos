@@ -1,12 +1,14 @@
+"use strict";
+
 /**
  * Service Worker of ROAKPOS
  */
 
 const cacheName = "roakpos-v1.0";
-const startPage = "https://pos.roakrak.co.id/roakpos/public/";
-const offlinePage = "https://pos.roakrak.co.id/roakpos/public/";
+const startPage = "https://pos.roakrak.co.id/roakpos/public";
+const offlinePage = "https://pos.roakrak.co.id/roakpos/public/offline";
 const filesToCache = [startPage, offlinePage];
-const neverCacheUrls = [/\/tests/, /preview=true/];
+const neverCacheUrls = [/\/vendor/, /preview=true/];
 
 // Install
 self.addEventListener("install", function (e) {
@@ -14,12 +16,12 @@ self.addEventListener("install", function (e) {
     e.waitUntil(
         caches.open(cacheName).then(function (cache) {
             console.log("ROAKPOS service worker caching dependencies");
-            filesToCache.map(async function (url) {
-                try {
-                    return cache.add(url);
-                } catch (reason) {
-                    return console.log(`ROAKPOS: ${String(reason)} ${url}`);
-                }
+            filesToCache.map(function (url) {
+                return cache.add(url).catch(function (reason) {
+                    return console.log(
+                        "ROAKPOS: " + String(reason) + " " + url
+                    );
+                });
             });
         })
     );
@@ -99,6 +101,7 @@ self.addEventListener("fetch", function (e) {
             })
     );
 });
+
 // Check if current url is in the neverCacheUrls list
 function checkNeverCacheList(url) {
     if (this.match(url)) {
